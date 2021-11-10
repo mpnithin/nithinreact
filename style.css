@@ -1,0 +1,16 @@
+body{
+    background-color: bisque;
+}
+h1{
+    color: brown;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 400%;
+    background-color: chartreuse;
+}
+
+p{
+    color: mediumblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+

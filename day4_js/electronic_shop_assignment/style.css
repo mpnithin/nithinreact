@@ -1,0 +1,144 @@
+body{
+    /*background-image: url("back.jpg");*/
+    background-color: rgb(208, 247, 247);
+    background-repeat: no-repeat;
+    background-size:cover
+}
+header
+{
+    background-image:linear-gradient(rgb(172, 218, 226),white,pink);
+    height: 100px;;
+        
+}
+header h1{
+    text-align:center;
+    padding-top: 10px;
+    font-size: 80px;
+    color: rgb(70, 59, 59);
+    
+}
+header img{
+    float: left;
+    height: 100px;
+    width: 100px;
+    border-style: ridge;  
+}
+nav
+{
+    background-color:rgb(214, 175, 199);
+    text-align:right;
+    font-family: serif;
+    height: auto;
+    
+    
+    
+    
+}
+nav li
+{
+    list-style-type:none;
+    display: inline;
+    padding: 10px;
+    color: brown;
+    font-size: 25px;
+    text-decoration:none;
+    text-transform: capitalize;
+  
+    
+    
+}
+.sectionhome
+{
+    height: auto;
+    width:100%;
+}
+.sectionhome img
+{
+    height:350px;
+    width:24.7%;
+ display:inline-block;   
+}
+.homediv
+{
+    width: auto;
+    height: 250px;
+    background-color: darkcyan;
+}
+.homediv p{
+    font-size: 20px;
+}
+footer{
+    text-align: center;
+    font-size: x-large;
+    color: black;
+    margin-top: 30px;
+    background-color: rgb(11, 11, 12);
+    height: 60px;
+    padding-top: 20px;
+    position:static;
+
+}
+.pdiv
+{
+    height: auto;
+    width:100%;
+    text-align: center;
+    align-items: center;
+
+}
+.table1
+{
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+.table1 img
+{
+    height: 50px;
+    width: 50px;
+    
+}
+.table1 td 
+{
+    text-align: center;
+    font-size:larger;
+}
+.table1 th{
+    font-size: x-large;
+    text-decoration: underline;
+    color: midnightblue;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+}
+address
+{
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 30px;
+}
+.table2
+{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.table2 tr td{
+    padding: 10px;
+}
+
+
+
+
+.table1 img
+{
+    height: 50px;
+    width: 50px;
+    
+}
+form
+{
+    border: solid 1px;
+}

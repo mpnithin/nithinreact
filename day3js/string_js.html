@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>string in javascript</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+        <h2 id="st1"></h2>
+        <h2 style="text-align: center;color: blue;"> Slicie()</h2>
+        <h2 id="st2"></h2>
+        <h2 style="text-align: center;color: blue;"> substring()</h2>
+        <h2 id="st3"></h2>
+        <h2 style="text-align: center;color: blue;"> Substr()</h2>
+        <h2 id="st4"></h2>
+        <h2 style="text-align: center;color: blue;"> replace string</h2>
+        <h2 id="st5"></h2>
+        <h2 style="text-align: center;color: blue;"> string concatination</h2>
+        <h2 id="st6"></h2>
+        <script>
+            let str="JS, is a programming language that conforms to the ECMAScript specification.";
+            let str2="today is monday.";
+            let str3="tommorow is tuesday"
+            let len=str.length;
+            document.getElementById("st1").innerHTML=str+"<br><br>"+"string length ="+len;
+            //slice string
+            let slistr=str.slice(9,20);
+            let slistr2=str.slice(-15,-1);
+            let slistr3=str.slice(4);
+            document.getElementById("st2").innerHTML=slistr+"<br>"+slistr2+"<br>"+slistr3;
+            //substring
+            document.getElementById("st3").innerHTML="<br><br>"+str.substring(9,20)+"<br>"+str.substring(30);
+            //substr(start,length)
+            document.getElementById("st4").innerHTML=str.substr(9,20)+"<br>"+str.substr(-15);
+            //replace string
+            let rplstr=str.replace("JS","javascript");
+            document.getElementById("st5").innerHTML=rplstr;
+            //concatination of strings
+            document.getElementById("st6").innerHTML=str2.concat(str3);
+
+        </script>
+
+
+    </body>
+</html>

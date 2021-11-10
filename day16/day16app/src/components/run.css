@@ -1,0 +1,24 @@
+.h11{
+    color: red;
+}
+.h22  {
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    background-color: rgb(14, 189, 66);
+    position: relative;
+    animation-name: doanimate;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+  }
+  
+  @keyframes doanimate {
+    0%   {background-color:rgb(218, 136, 190); left:0px; top:0px;}
+    25%  {background-color:rgb(65, 65, 28); left:200px; top:0px;}
+    50%  {background-color:rgb(110, 110, 238); left:200px; top:200px;}
+    75%  {background-color:rgb(231, 175, 201); left:0px; top:200px;}
+    100% {background-color:rgb(7, 80, 68); left:0px; top:0px;}
+  }

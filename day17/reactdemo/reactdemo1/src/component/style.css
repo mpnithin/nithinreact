@@ -1,0 +1,18 @@
+tbody{
+    background-color:antiquewhite;
+}
+thead{
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    background-color: cornflowerblue;
+}
+table{
+    height: auto;
+    width: 50%;
+    padding-left: 30%;
+    
+}
+form{
+    text-align: center;
+    
+}

@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Array operations in JS</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+        <h2 id="c" style="text-align: center; color: blue;"></h2>
+        <h2 id="c1"></h2>
+        <h2 id="c2"></h2>
+        <h2 id="c3"></h2>
+        <h2 id="c4"></h2>
+        <h2 style="text-align: center; color: blue;" id="cc"></h2>
+        <h2 id="c5"></h2>
+        <h2 id="c6"></h2>
+        <h2 id="c7"></h2>
+        <script>
+            const colors=["red","green","blue","pink"];
+            document.getElementById("c").innerHTML=colors;
+
+        
+
+            colors.pop();
+            document.getElementById("c1").innerHTML=colors+"//pop";
+
+            colors.push("orange");
+            document.getElementById("c2").innerText=colors+"//push";
+
+            colors.shift();
+            document.getElementById("c3").innerText=colors+"//shift";
+
+
+
+            const usht=colors.unshift("violet");
+            document.getElementById("c4").innerHTML=colors+"//unshift";
+
+            const animals=["lion","tiger","elephant","deer"];
+            document.getElementById("cc").innerHTML=animals;
+            animals.splice(3,0,"zebra");
+            document.getElementById("c5").innerHTML=animals;
+
+            animals.splice(2,2,"donkey","cat","monkey");
+            document.getElementById("c6").innerText=animals;
+
+            
+            
+
+
+        </script>
+    </body>
+</html>

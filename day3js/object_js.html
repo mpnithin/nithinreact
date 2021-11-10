@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>
+            object in javascript
+        </title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+        <h2 id="stu1"></h2>
+        <button onclick="sample()"><h2>click here to view details</h2></button>
+        <script>
+            const stu={name:"Nithin",rollno:40,maths_mark:80,eng_mark:70,science_mark:85,student_detail:function()
+                {
+                     let sum=this.maths_mark+this.eng_mark+this.science_mark;
+                     return "name ="+stu.name+"<br>Rollno ="+stu.rollno+"<br>maths_mark ="+stu.maths_mark+"<br>eng_mark"+stu.eng_mark+"<br>science_mark ="+stu.science_mark+" <br>total marks ="+sum;
+            
+                 }};
+            function sample()
+            {
+            document.getElementById("stu1").innerHTML=stu.student_detail();
+            }
+            
+        </script>
+    </body>
+</html>

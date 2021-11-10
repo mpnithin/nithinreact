@@ -1,0 +1,29 @@
+.t-head {
+    color: brown;
+    background-color: aqua;
+    margin:0;
+    text-transform: capitalize;
+    
+    
+}
+
+.t-body{
+    color: rgb(15, 15, 24);
+    background-color: cadetblue;
+    
+}
+.table{
+    background-color: azure;
+    border: 2px solid;
+   height: 300px;
+   width: 50%;
+   text-align: center;
+   font-size: 40px;  
+}
+table caption{
+    caption-side: bottom;
+    color: rgb(10, 19, 2);
+    font-style: italic;
+    font-size: large;
+}
+

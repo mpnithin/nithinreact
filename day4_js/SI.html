@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>
+            simple interst using string interpolation method
+        </title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+        <h2 id="id1"></h2>
+        
+        <script >
+        let p=10000;
+        let r=10;
+        let n=2;
+        function calcsi()
+        {
+             let si=`simple intrest = ${((p*n*r)/100)}`;
+                let tot=`total = ${((p*n*r)/100)+p}`;
+             return si+"<br>"+tot;
+        }   
+        document.getElementById("id1").innerHTML=calcsi();
+        </script>
+    </body>
+</html>

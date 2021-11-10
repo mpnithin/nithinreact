@@ -1,0 +1,111 @@
+body
+{
+    background-image: url("12.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header
+{
+background-color: rgb(75, 71, 65);
+font-size: 250%;
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+.nav1{
+    
+    background-image: radial-gradient(green,yellow);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    height: 25px;
+   
+}
+.nav1 li{
+    display: inline;
+    list-style-type:none;
+    font-size: 20px;
+    padding: 15px;
+    
+}
+
+.para1
+{
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(3, 3, 3);
+    font-size:larger;
+    border: thin solid rgb(9, 158, 46);
+    border-width: 1ch;
+    padding: 20px;
+
+}
+.para2
+{
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(3, 3, 3);
+    font-size:larger;
+    border: thin solid rgb(15, 109, 250);
+    border-width: 0.8ch;
+    padding: 20px;
+}
+#logo
+{
+    float: left;
+    
+}
+#tbl
+{
+    
+    background-color: rgb(187, 181, 181);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+    height: 250px;
+    margin-top: 20px;
+    border-width: thick;
+    border-style:solid dotted ridge dashed;
+    border-color: brown; 
+    font-weight: bold;
+ 
+}
+th,td{
+    padding: 5px;
+    text-align:center;
+}
+#divhome
+{
+    
+    margin: 20px 70px 30px 70px;
+    border-style: dashed;
+    padding: 75px 50px 75px 50px;
+}
+
+address{
+    text-transform: capitalize;
+    border-style: solid;
+    box-shadow: grey 5px 5px;
+    margin-top: 20px;
+    padding: 50px 100px 50px 100px;
+    font-style:italic;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    
+    
+}
+
+h1{
+    text-shadow: #fd00fd 12px 6px 3px;
+
+}
+
+a{
+    text-transform: uppercase;
+}
+#divapparel
+{
+    text-align: center;
+    font-weight: bolder;
+}

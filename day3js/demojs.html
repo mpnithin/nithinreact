@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>js demo in elements</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+        <div id="txt" style="border: 1cm;"></div>
+        <br>
+        <button onclick="window.print()">print a copy</button>
+        <br>
+
+        <div>
+            <h2 id="aa"></h2>
+            <h2 id="sub"></h2>
+            <h2 id="mul"></h2>
+            <h2 id="div"></h2>
+        </div>
+        <div>
+            <h2 id="emp"></h2>
+            <h2 id="toy" onmouseover="samcolor()"></h2>
+            <br>
+            <h2 id="fun"></h2>
+            <br>
+        
+            <h2 id="enth" ></h2>
+            <button onclick="eventfun()" >click</button>
+            
+        </div>
+        <script>
+            document.getElementById("txt").innerHTML="hello ";
+            /*window.alert("!!!alert");*/
+            document.write("good morining team!");
+            
+            var x;
+            x=10;
+            let y=5;
+            var ad=x+y;
+            var su=x-y;
+            document.getElementById("aa").innerHTML="sum ="+ad;
+            document.getElementById("sub").innerHTML="minus ="+su;
+            document.getElementById("mul").innerHTML="mul ="+(x*y);
+            document.getElementById("div").innerHTML=" div ="+(x/y);
+            
+            const obj={trainee_name:"john bosco",education:"MCA",Doj:"12/5/2021",location:"trivandrum"};
+            /*var ty=typeof(obj);*/
+            document.getElementById("emp").innerHTML="Trainee name ="+obj.trainee_name+"<br> Education ="+obj.education+" <br>DOJ = "+obj.Doj+" <br>Location = "+obj.location;
+            
+            const toys=["bus","car","doll","house"];
+            var ty=typeof(toys);
+            document.getElementById("toy").innerHTML=ty+"Toys ="+toys;
+
+            function fun_sam(n1,n2)
+            {
+                return n1+n2;
+            }
+            let summ=fun_sam(22,33);
+            document.getElementById("fun").innerHTML=summ;
+
+
+
+
+            /*fun in event handler*/
+                            function eventfun()
+                            {
+                                document.getElementById("enth").innerHTML=Date();
+                            }
+
+            //event fun 2
+              function samcolor()
+              {              
+                document.getElementById("toy").style.color="red";
+              }
+                            
+        
+        </script>
+    </body>
+</html>
